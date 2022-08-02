@@ -6,7 +6,11 @@
 </head>
 <body>
     <?php 
-        echo("Hello World");
+        $phrase = "To be or not to be";
+        $age    = 26;
+        $f_age  = 26.0;
+        $isMale = true;
+        echo $phrase;
     ?>
 </body>
 </html>
