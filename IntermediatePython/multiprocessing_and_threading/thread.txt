@@ -1,0 +1,11 @@
+Thread: An entity within a process that can be sheduled (also known as lightweight process)
+
++ All threads within a process share the same memory
++ Lightweight
++ Starting a thread is faster than starting a process
++ Great for I/O-bound tasks
+
+- Threading is limited by GIL: Only one thread at a time
+- No effect for CPU-bound tasks
+- Not interruptable/killable
+- Careful with race conditions
